@@ -1,0 +1,85 @@
+# ==============================================================================
+# StockSense AI - .gitignore
+# ==============================================================================
+
+# Project documentation and academic reports
+final.docx
+*.docx
+*.pdf
+*.doc
+*.odt
+*.ppt
+*.pptx
+*.rtf
+documentation/
+Documentation/
+docs/
+Docs/
+StockSense_AI_Antigravity_Docs/
+
+# Dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Frontend build output
+dist/
+dist-ssr/
+build/
+coverage/
+*.local
+
+# Python caches and test output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+.hypothesis/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and temporary data
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+stocksense.db
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files and scratch
+scratch/
+*.tmp
+*.temp
+*.bak

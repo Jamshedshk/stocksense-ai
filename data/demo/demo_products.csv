@@ -1,0 +1,13 @@
+sku,name,category,opening_stock,unit_cost,selling_price,reorder_threshold,supplier_lead_time_days,supplier_name,supplier_contact
+PROD-KB-101,Wireless Mechanical Keyboard,Electronics,24,45.0,79.99,10,5,KeyTech Ltd,rep@keytech.example.com
+PROD-MS-202,Precision Ergonomic Mouse,Electronics,35,22.0,39.99,12,4,ErgoGear,orders@ergogear.example.com
+PROD-MN-303,27-inch 4K IPS Monitor,Electronics,8,180.0,299.99,5,10,VisionDisplay,sales@visiondisplay.example.com
+PROD-US-404,USB-C Multi-Port Hub,Electronics,50,15.0,29.99,15,3,ConnectPro,hub@connectpro.example.com
+PROD-HD-505,Noise-Cancelling Headphones,Electronics,6,85.0,149.99,8,7,AudioSound,info@audiosound.example.com
+PROD-NB-606,Dotted Grid Notebook A5,Stationery,80,4.0,9.99,20,3,PaperCraft,orders@papercraft.example.com
+PROD-PN-707,Gel Ink Rollerball Pen (Pack of 5),Stationery,120,3.5,7.99,25,2,InkWrites,supply@inkwrites.example.com
+PROD-DS-808,Ergonomic Desk Mat (Leather),Stationery,22,12.0,24.99,8,4,DeskCraft,support@deskcraft.example.com
+PROD-TS-909,Heavyweight Cotton T-Shirt,Apparel,65,8.0,19.99,15,6,ApparelCo,contact@apparelco.example.com
+PROD-HD-010,Classic Fleece Hoodie,Apparel,18,22.0,49.99,10,8,UrbanWear,trade@urbanwear.example.com
+PROD-WB-111,Stainless Steel Water Bottle 750ml,Home & Living,42,9.5,21.99,10,5,HydroEco,eco@hydroeco.example.com
+PROD-LP-212,Minimalist LED Desk Lamp,Home & Living,12,18.0,36.99,8,7,LuminaWorks,desk@luminaworks.example.com
