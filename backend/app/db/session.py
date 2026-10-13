@@ -7,9 +7,13 @@ if settings.DATABASE_URL.startswith("sqlite"):
     connect_args["check_same_thread"] = False
 
 db_url = settings.DATABASE_URL
-# Normalize legacy postgres:// URLs to postgresql:// for SQLAlchemy compatibility
+# Normalize PostgreSQL URLs to explicitly specify the psycopg2 driver for SQLAlchemy compatibility
 if db_url.startswith("postgres://"):
-    db_url = db_url.replace("postgres://", "postgresql://", 1)
+    db_url = db_url.replace("postgres://", "postgresql+psycopg2://", 1)
+elif db_url.startswith("postgresql://"):
+    db_url = db_url.replace("postgresql://", "postgresql+psycopg2://", 1)
+elif db_url.startswith("postgresql+psycopg://"):
+    db_url = db_url.replace("postgresql+psycopg://", "postgresql+psycopg2://", 1)
 engine = create_engine(
     db_url,
     connect_args=connect_args,
